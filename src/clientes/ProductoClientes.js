@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:8081/facturacion/v1.1/productos";
+const API_URL = "https://web-production-5a574.up.railway.app/facturacion/v1.1/productos";
 
 export const postProducto = async (producto) => {
     try {
